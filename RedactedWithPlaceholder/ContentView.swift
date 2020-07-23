@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        VStack {
+            Text("This is a placeholder text")
+            Text("So is this")
+        }.font(.largeTitle)
+        .redacted(reason: .placeholder)
     }
 }
 
